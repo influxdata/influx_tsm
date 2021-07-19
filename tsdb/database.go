@@ -1,5 +1,5 @@
 // Package tsdb abstracts the various shard types supported by the influx_tsm command.
-package tsdb // import "github.com/influxdata/influxdb/cmd/influx_tsm/tsdb"
+package tsdb // import "github.com/influxdata/influx_tsm/tsdb"
 
 import (
 	"fmt"

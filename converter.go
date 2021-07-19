@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/influxdata/influxdb/cmd/influx_tsm/stats"
+	"github.com/influxdata/influx_tsm/stats"
 	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
 )
 

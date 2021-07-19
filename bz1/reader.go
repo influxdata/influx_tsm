@@ -1,5 +1,5 @@
 // Package bz1 reads data from bz1 shards.
-package bz1 // import "github.com/influxdata/influxdb/cmd/influx_tsm/bz1"
+package bz1 // import "github.com/influxdata/influx_tsm/bz1"
 
 import (
 	"bytes"
@@ -12,8 +12,8 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/golang/snappy"
-	"github.com/influxdata/influxdb/cmd/influx_tsm/stats"
-	"github.com/influxdata/influxdb/cmd/influx_tsm/tsdb"
+	"github.com/influxdata/influx_tsm/stats"
+	"github.com/influxdata/influx_tsm/tsdb"
 	"github.com/influxdata/influxdb/tsdb/engine/tsm1"
 )
 
