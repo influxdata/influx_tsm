@@ -5,6 +5,10 @@ format. Converting shards to tsm1 format results in a very significant
 reduction in disk usage, and significantly improved write-throughput,
 when writing data into those shards.
 
+`influx_tsm` is not actively maintained as the TSM file format has been standard
+since InfluxDB 0.10.0 was released in 2016, but is provided for users that may
+have data in the older formats.
+
 Conversion can be controlled on a database-by-database basis. By
 default a database is backed up before it is converted, allowing you
 to roll back any changes. Because of the backup process, ensure the
